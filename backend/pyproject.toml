@@ -1,0 +1,11 @@
+[project]
+name = "football-betting-intelligence"
+version = "0.1.0"
+description = "Core analytics primitives for a football betting intelligence platform"
+requires-python = ">=3.11"
+
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
